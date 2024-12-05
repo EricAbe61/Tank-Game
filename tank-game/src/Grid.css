@@ -1,0 +1,19 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); /* 10 spaces horizontally */
+    grid-template-rows: repeat(10, 1fr);  /* 10 spaces vertically */
+    gap: 2px;
+    width: 500px; /* Adjust width as needed */
+    height: 500px; /* Adjust height as needed */
+    border: 2px solid black;
+    margin: 0 auto; /* Center the grid */
+  }
+  
+  .grid-cell {
+    border: 1px dashed grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+  }
+  
