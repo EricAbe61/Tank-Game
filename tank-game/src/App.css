@@ -1,4 +1,3 @@
-/* Center the game container */
 .game-container {
   display: flex;
   flex-direction: column;
@@ -9,24 +8,43 @@
   color: white;
 }
 
-/* Style for the game title */
 .game-title {
   font-size: 3rem;
   margin-bottom: 1rem;
   color: #f4f4f4;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 50px); 
+  grid-template-rows: repeat(10, 50px); 
+  gap: 2px;
+  border: 2px solid white;
+}
+
+.grid-cell {
+  border: 1px dashed grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2a2a2a;
+}
 
 
-/* Red tank styles */
 .red-tank {
   color: red;
   font-size: 1.5rem;
 }
 
-/* Blue tank styles */
+
 .blue-tank {
   color: blue;
   font-size: 1.5rem;
+}
+
+.tank-image {
+  width: 40px; 
+  height: 40px;
+  object-fit: contain;
 }
 

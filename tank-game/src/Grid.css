@@ -1,12 +1,12 @@
 .grid {
     display: grid;
-    grid-template-columns: repeat(10, 1fr); /* 10 spaces horizontally */
-    grid-template-rows: repeat(10, 1fr);  /* 10 spaces vertically */
+    grid-template-columns: repeat(10, 1fr); 
+    grid-template-rows: repeat(10, 1fr);  
     gap: 2px;
-    width: 500px; /* Adjust width as needed */
-    height: 500px; /* Adjust height as needed */
+    width: 500px; 
+    height: 500px; 
     border: 2px solid black;
-    margin: 0 auto; /* Center the grid */
+    margin: 0 auto; 
   }
   
   .grid-cell {
